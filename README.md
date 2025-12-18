@@ -42,14 +42,21 @@ This Mini-MVP release is scoped to demonstrate the feasibility of the AI archite
 
 ## 🛠️ Installation & Setup
 
-### Prerequisites
-* Python 3.8+
-* CUDA-capable GPU (Optional, but recommended for faster inference)
+### 1. Prerequisite: Install Git LFS
+This project uses large data files. Please ensure you have Git LFS installed before cloning.
+- **Windows:** Download from [git-lfs.github.com](https://git-lfs.github.com/)
+- **Mac:** `brew install git-lfs`
+- **Linux:** `sudo apt-get install git-lfs`
 
+Once installed, set it up once:
+
+```bash
+git lfs install
+```
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/KraftgeneAI/grid-guardian.git](https://github.com/KraftgeneAI/grid-guardian.git)
-cd grid-guardian
+git clone https://github.com/KraftgeneAI/Mini-MVP
+cd Mini-MVP
 ```
 
 ### 2. Create a Virtual Environment
@@ -65,7 +72,7 @@ source venv/bin/activate
 
 **Windows:**
 
-```powershell
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
