@@ -18,7 +18,7 @@
 * **Trajectory Mapping:** Visualizes the predicted "path" of the cascade with directional indicators.
 * **Alert System:** Automated classification of system states (Nominal, Instability, Critical Cascade).
 
-![EnergyEminence Dashboard - Cascade Propagation View](images/screenshot2.JPG)
+![EnergyEminence Dashboard - Cascade Propagation View](public/images/screenshot2.JPG)
 
 ### 3. **Engineer / Debug Mode**
 * **Ground Truth Overlay:** Visual comparison between Model Predictions (Red) and Historical Ground Truth (Green).
@@ -27,8 +27,7 @@
     * **Signal Analysis:** Voltage histograms and frequency drift detection.
     * **Node-Level Probability Inspector:** Granular table view of raw model confidence scores vs. actual outcomes.
 
-![EnergyEminence Dashboard - Engineer Diagnostics View](images/screenshot1.JPG)
-
+![EnergyEminence Dashboard - Engineer Diagnostics View](public/images/screenshot1.JPG)
 ---
 
 ## 🎯 MVP Scope & Current Capabilities
