@@ -114,6 +114,7 @@ streamlit run app.py
 ```text
 Mini-MVP/
 ├── app.py                  # Main Streamlit Dashboard application
+├── public/images                 # Images asset 
 ├── inference.py            # Core Inference Logic (Model Wrapper)
 ├── multimodal_cascade_model.py # GNN Architecture Definition
 ├── cascade_dataset.py      # Data Loader & Collate Functions
