@@ -112,7 +112,7 @@ streamlit run app.py
 ## 📂 Project Structure
 
 ```text
-grid-guardian/
+Mini-MVP/
 ├── app.py                  # Main Streamlit Dashboard application
 ├── inference.py            # Core Inference Logic (Model Wrapper)
 ├── multimodal_cascade_model.py # GNN Architecture Definition
